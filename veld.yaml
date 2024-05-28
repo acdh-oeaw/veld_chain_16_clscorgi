@@ -1,0 +1,7 @@
+
+services:
+  veld:
+    extends:
+      file: ./veld_executable_18_clscorgi/veld.yaml
+      service: veld
+
