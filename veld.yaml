@@ -4,7 +4,7 @@ x-veld:
 services:
   veld:
     extends:
-      file: ./veld_executable_18_clscorgi/veld.yaml
+      file: ./veld_code_18_clscorgi/veld.yaml
       service: veld
     volumes:
       - ./veld_data_15_eltec_udpipe_conllu/:/veld/input/
