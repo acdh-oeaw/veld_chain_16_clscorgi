@@ -1,7 +1,16 @@
 x-veld:
   chain:
-    description:
+    description: "reading in generated conllu files from udpipe and transform them to
+      clscorgi-conforming json files for further ingestion into clscor catalogue"
     topics:
+      - "NLP"
+      - "Machine learning"
+      - "tokenization"
+      - "lemmatization"
+      - "part of speech"
+      - "dependency parsing"
+      - "universal dependencies"
+      - "grammatical annotation"      
 
 services:
   veld:
